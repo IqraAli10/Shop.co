@@ -192,6 +192,7 @@ const ProductGrid = () => {
       {products.map((product) => (
         <Link
          href={`/product`} // Dynamic route
+         key={product.id}
        
         >
           <motion.div
